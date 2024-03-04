@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+  </head>
+  <body>
+    <p>Задание 1</p>
+    <p>
+      Дан инпут и абзац. По потери фокуса в инпуте запишите значение инпута в
+      конец текста абзаца.
+    </p>
+    <input type="text" id="myInput" />
+    <p id="myParagraph">Текст абзаца:</p>
+
+    <p>Задание 2</p>
+    <p>
+      Дан инпут и абзац. По потери фокуса в инпуте запишите значение инпута в
+      конец текста абзаца.
+    </p>
+    <input type="text" id="input1" />
+    <input type="text" id="input2" />
+    <input type="text" id="input3" />
+    <button id="calculateButton">Посчитать сумму</button>
+    <p id="resultParagraph">Сумма:</p>
+
+    <p>Задание 3</p>
+    <p>
+      Дан инпут. В него вводится число. По потери фокуса найдите сумму цифр
+      этого числа.
+    </p>
+
+    <input type="text" id="numberInput" />
+    <p id="sumOutput">Сумма цифр:</p>
+
+
+    <p>Задание 4</p>
+    <input type="text" id="numbersInput1">
+    <p>Среднее арифметическое: <span id="average"></span></p>
+
+    <p>Задание 5</p>
+    <input type="text" id="fullNameInput" placeholder="ФИО" />
+    <input type="text" id="lastNameInput" placeholder="Фамилия" />
+    <input type="text" id="firstNameInput" placeholder="Имя" />
+    <input type="text" id="middleNameInput" placeholder="Отчество" />
+
+    <p>Задание 6</p>
+    <input type="text" id="zd6">
+    
+    <p>Задание 7</p>
+    <input type="text" id="zd7"> 
+
+    <p>Задание 8</p>
+    <input type="text" id="zd8">
+
+    <p>Задание 9</p>
+    <input type="text" id="zd9">
+    <button id="zd9b">Проверить</button>
+
+    <p>Задание 10</p>
+    <input type="text" id="zd10">
+
+    <p>Задание 11</p>
+      <p id="zdp11">sadasd</p>
+      <p id="zdp11">asdasfasfaf</p>
+      <p id="zdp11">ivbaevbsdhgb</p>
+      <button id="zd11b">добавить</button>
+    
+    <p>Задание 12</p>
+      <a id="zd12" href="http://google.com">google</a>
+    
+    <p>Задание 13</p>
+    <div id="links1"></div>
+
+    <p>Задание 14</p>
+    <p id="zd14">123123</p>
+    
+    <p>Задание 15</p>
+    <input
+      type="text"
+      id="dateInput"
+      placeholder="Введите дату в формате ДД.ММ.ГГГГ"
+    />
+
+    <p>Задание 16</p>
+
+    <input type="text" id="numberIn" value="0" readonly />
+    <button onclick="incrementValue()">+1</button>
+    <button onclick="decrementValue()">-1</button>
+
+    <p>Задание 17</p>
+    <input type="text" id="clickCountInput" value="0" readonly />
+    <p onclick="incrementCounter()">Абзац 1</p>
+    <p onclick="incrementCounter()">Абзац 2</p>
+    <p onclick="incrementCounter()">Абзац 3</p>
+
+    <p>Задание 18</p>
+    <div class="text-div">
+      Это текст, который нужно обрезать и добавить троеточие в конце
+    </div>
+    <div class="text-div">Еще один длинный текст, который нужно сократить</div>
+
+    <p>Задание 19</p>
+    <input type="text" id="randomStringInput" />
+    <button onclick="generateRandomString()">Сгенерировать строку</button>
+
+    <p>Задание 20</p>
+
+    <input type="text" id="inputString" />
+    <button onclick="shuffleCharacters()">Перемешать</button>
+
+    <p>Задание 21</p>
+    <input
+      type="text"
+      id="fahrenheitInput"
+      placeholder="Температура в Фаренгейтах"
+    />
+    <button id="convertButton">Конвертировать</button>
+    <p id="celsiusOutput"></p>
+
+    <p>Задание 22</p>
+
+    <input type="number" id="number" placeholder="Введите число" /><br />
+    <button onclick="calculateFactorial()">Вычислить факториал</button>
+    <p id="result"></p>
+
+    <p>Задание 23</p>
+
+    <input type="number" id="a" placeholder="Введите коэффициент a" /><br />
+    <input type="number" id="b" placeholder="Введите коэффициент b" /><br />
+    <input type="number" id="c" placeholder="Введите коэффициент c" /><br />
+    <button onclick="solveQuadratic()">Решить</button>
+    <p id="result1"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
