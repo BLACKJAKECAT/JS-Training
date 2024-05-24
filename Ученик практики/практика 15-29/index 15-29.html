@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика Java Script</title>
+    <link rel="stylesheet" href="style 15-29.css">
+</head>
+<body>
+    <h1>Игра в города</h1>
+    <input id="elem15" placeholder="Введите город">
+    <button onclick="vvod()">ввод</button><br>
+    <br><div id="message15"></div>
+    <!--  -->
+    <h1>Чеклист</h1>
+    <input id="input18" placeholder="Введите пункт">
+    <ul id="list18"></ul>
+    <!--  -->
+    <br><br>
+    <h1>Таблица продуктов:</h1>
+    <div id="parent">
+        <div id="form">
+            <input id="name" placeholder="название">
+            <input id="price" placeholder="цена">
+            <input id="amount" placeholder="количество">
+            <input id="add" type="button" value="добавить">
+        </div>
+        <table id="table">
+            <tr>
+                <th>название</th>
+                <th>цена</th>
+                <th>кол-во</th>
+                <th>сумма</th>
+                <th>удалить</th>
+            </tr>
+        </table>
+        <div id="result">
+            общий итог: <span id="total">0</span>
+        </div>
+    </div>
+
+
+
+    <script src="js 15-29.js"></script>
+</body>
+</html>
