@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stilization</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      id="myDiv"
+      style="width: 200px; height: 200px; background-color: red"
+    ></div>
+    <button onclick="changeSize()">Нажми меня</button>
+
+    <div id="elem10" style="width: 300px; height: 200px">
+      text<button onclick="showSize()">Показать размер</button>
+    </div>
+
+    <div id="elem1" style="font-size: 1.5em">
+      text
+      <button onclick="showFontSize()">Показать размер шрифта</button>
+    </div>
+
+    <div id="elem2" style="width: 300px; height: 200px; border: 1px solid red">
+      text
+    </div>
+    <button onclick="increaseSize()">Увеличить размер</button>
+
+    <div id="elem3" style="width: 300px; height: 200px; border: 1px solid red">
+      text
+    </div>
+    <button onclick="increaseSizes()">Увеличить размер</button>
+
+    <div id="elem4" style="width: 300px; height: 200px; border: 1px solid red">
+      text
+    </div>
+    <button onclick="getBorderStyle()">Получить стиль границы</button>
+
+    <div id="elem5" style="width: 200px; height: 100px; border: 1px solid blue">
+      Див для скрытия и показа
+    </div>
+    <button onclick="hideElement()">Скрыть див</button>
+    <button onclick="showElement()">Показать див</button>
+
+    <div id="elem6" style="width: 200px; height: 100px; border: 1px solid blue">
+      Див для изменения цвета
+    </div>
+    <button onclick="changeColor1('red')">Покрасить в красный</button>
+    <button onclick="changeColor1('blue')">Вернуть исходный цвет</button>
+
+    <div id="elem7" style="width: 200px; height: 200px; border: 1px solid blue">
+      Див для получения ширины и высоты
+    </div>
+    <button onclick="displaySize()">Показать размер</button>
+
+    <div id="elem8" style="width: 200px; height: 200px; border: 1px solid blue">
+      Див для изменения размера
+    </div>
+    <button onclick="increase()">Увеличить размер</button>
+
+    <div id="elem9" style="font-size: 2em">
+      Элемент с изменяемым размером шрифта
+    </div>
+    <button onclick="getFontSize()">Получить размер шрифта</button>
+
+    <div id="numbers">
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+      <p>4</p>
+      <p>5</p>
+    </div>
+    <button onclick="highlightNumbers()">Выделить числа</button>
+
+    <p onclick="changeColor(this)">Абзац 1</p>
+    <p onclick="changeColor(this)">Абзац 2</p>
+    <p onclick="changeColor(this)">Абзац 3</p>
+    <p onclick="changeColor(this)">Абзац 4</p>
+    <p onclick="changeColor(this)">Абзац 5</p>
+
+    <input type="text" id="myInput" onblur="checkInputLength(this)">
+
+    <input type="text" id="myInput1" onblur="checkNumberRange(this)">
+
+
+
+
+
+
+
+
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
